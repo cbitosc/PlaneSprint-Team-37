@@ -1,0 +1,8 @@
+Run this command to install express and other node modules.
+
+>> npm install 
+
+For admin, login with the following credentials:
+email: sujith@test.com
+password: sujith
+
