@@ -1,0 +1,21 @@
+<%- include('../../shared/includes/head', { pageTitle: 'All Products' }) %>
+<link rel="stylesheet" href="/styles/products.css">
+</head>
+<body>
+  <%- include('../../shared/includes/header') %>
+  <main>
+    <form action=""  id="form-mobile">
+      <input type="text" placeholder="Search" class="search-bar" name="search">
+      <button class="btn search-btn">Search</button>
+    </form>
+    <h1>All Products</h1>
+
+    <ul id="products-grid">
+      <% for (const product of products) { %>
+        <li>
+          <%- include('../../shared/includes/product-item', { product: product }) %>
+        </li>
+      <% } %>
+    </ul>
+  </main>
+<%- include('../../shared/includes/footer') %>
