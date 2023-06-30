@@ -1,0 +1,40 @@
+form hr {
+  border-color: rgb(250, 191, 143);
+  margin: 1rem;
+}
+
+label {
+  color: rgb(231, 229, 229);
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+input, textarea {
+  font: inherit;
+  padding: 0.5rem;
+  border-radius: 4px;
+  width: 90%;
+  border: 1px solid black;
+}
+
+#image-upload-control {
+  display: flex;
+  align-items: center;
+}
+
+#image-upload-control input {
+  max-width: 15rem;
+}
+
+#image-upload-control img {
+  display: none;
+  width: 4rem;
+  height: 4rem;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+h1 {
+  color: black;
+}
